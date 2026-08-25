@@ -30,3 +30,5 @@ Repositório oficial para organização e acompanhamento da disciplina (2026).
 - “Quem decide no achismo nunca perde tempo com dados.” by Ciclano (1900)
 
 ajuste
+
+testes
