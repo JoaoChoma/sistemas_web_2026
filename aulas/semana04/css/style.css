@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.corpo{
+    width: 80%;
+    text-align: center;
+    margin: 10px;
+}
