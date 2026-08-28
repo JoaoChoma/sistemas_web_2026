@@ -17,6 +17,10 @@ Repositório oficial para organização e acompanhamento da disciplina (2026).
 - `assets/` — imagens e recursos visuais (ex.: banner do README)
 
 
+## Dicas Git
+
+[Dicas Git](git-cheat-sheet.md)
+
 ## Como usar
 
 1. Consulte os materiais e avisos na seção **aulas**.
