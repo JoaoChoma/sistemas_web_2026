@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="calculadora">
+        <h1>Calculadora</h1>
+
+        <input
+            type="text"
+            id="display"
+            class="display"
+            value="0"
+            readonly
+        >
+
+        <div class="teclado">
+            <button id="btn7">7</button>
+            <button id="btn8">8</button>
+            <button id="btn9">9</button>
+            <button id="btnSomar" class="operacao">+</button>
+
+            <button id="btn4">4</button>
+            <button id="btn5">5</button>
+            <button id="btn6">6</button>
+            <button id="btnSubtrair" class="operacao">-</button>
+
+            <button id="btn1">1</button>
+            <button id="btn2">2</button>
+            <button id="btn3">3</button>
+            <button id="btnMultiplicar" class="operacao">*</button>
+
+            <button id="btnLimpar" class="limpar">C</button>
+            <button id="btn0">0</button>
+            <button id="btnIgual" class="igual">=</button>
+            <button id="btnDividir" class="operacao">/</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
