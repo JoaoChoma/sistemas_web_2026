@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: #f1f3f5;
+}
+
+.jogo {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#mensagem {
+    min-height: 24px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.tabuleiro {
+    width: 330px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.celula {
+    width: 105px;
+    height: 105px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background: white;
+    font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.celula:hover {
+    background: #e9ecef;
+}
+
+.reiniciar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.reiniciar:hover {
+    background: #ddd;
+}
