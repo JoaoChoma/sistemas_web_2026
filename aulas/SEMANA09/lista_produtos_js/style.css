@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f1f3f5;
+}
+.container {
+  width: min(400px, calc(100% - 32px));
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+input { width: 100%; padding: 10px; margin-top: 10px; }
+button { margin-top: 10px; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+button:hover { background-color: #ddd; }
+li { margin-bottom: 8px; }
