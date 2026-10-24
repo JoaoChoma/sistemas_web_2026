@@ -16,6 +16,13 @@ Repositório oficial para organização e acompanhamento da disciplina (2026).
 - `atividades/` — enunciados, rubricas e exemplos
 - `assets/` — imagens e recursos visuais (ex.: banner do README)
 
+---
+
+## Projeto implementado pelo @lucassfelipe
+
+https://github.com/LucassFelipe/Torrou
+
+---
 
 ## Dicas Git
 
